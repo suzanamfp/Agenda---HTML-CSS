@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: inherit;
+    font-size: 10px;
+}
+.agenda{
+    width: 100px; 
+    float: right;
+    margin-top: 3px;
+    margin-right: 350px;
+
+}
+
+header{
+    background-color: blueviolet;
+    width: 100%;
+    height: 130px;
+    padding: 20px;
+    
+}
+h2{ margin-left: 400px;
+    font-family: cursive;
+    font-size: 55px;
+    color: darkseagreen;
+    margin-top: 10px;
+
+}
+
+.listaMenu a:link, a:visited {
+    color: (internal value);
+    text-decoration: none;
+    cursor: auto;
+  }
+  
+.listaMenu a:link:active, a:visited:active {
+    color: (internal value);
+  }
+.listaMenu a:hover{
+    cursor: pointer;
+}
+
+
+.listaMenu a div{
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+
+section{
+    width: 100%;
+    content: "";
+    display: table;
+    clear: both;
+}
+nav{
+    float: left;
+    width: 10%;
+    padding: 10px;
+    height: 400px;
+    background-color: rgb(20, 157, 220);
+    
+}
+.listaMenu{
+    margin-top: 5px;
+    font-size: 2em;
+    list-style-type: none;
+
+}
+ul{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h3{text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: darkseagreen;
+    margin-top: 10px;
+
+}
+article{
+    float: left;
+    width: 90%;
+    padding: 10px;
+    height: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lavender;
+    border-style: dashed;
+    border-width: 2px;
+    animation ;
+
+}
+footer{
+    float: left;
+    width: 100%;
+    padding: 5px;
+    height: 38px;
+    text-align: letft;
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 0px;
+    background-color: khaki;
+
+}
